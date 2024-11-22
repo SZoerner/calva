@@ -1571,6 +1571,12 @@
       },
       {
         "category": "Calva Paredit",
+        "command": "paredit.openList",
+        "title": "Move Cursor Backward to List Start/Open",
+        "enablement": "editorLangId == clojure"
+      },
+      {
+        "category": "Calva Paredit",
         "command": "calva.selectCurrentForm",
         "title": "Select Current Form",
         "enablement": "editorLangId == clojure"
